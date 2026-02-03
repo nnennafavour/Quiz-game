@@ -1,0 +1,100 @@
+/* Quiz.css */
+
+.container {
+  max-width: 600px;
+  width: 90%;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  color: #262626;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.container hr {
+  margin: 15px 0;
+  border: none;
+  background: #707070;
+  height: 1px;
+}
+.container h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+.container ul li {
+    display: flex;
+  align-items: center;
+  background: #f4f6ff;
+  padding: 15px;
+  border: 1px solid #686868;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.container button {
+  width: 250px;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  border-radius: 8px;
+  background: #1990ff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.container .index {
+  margin: auto;
+  font-size: 18px;
+}
+/* .correct{
+    background: #dffff2;
+    border-color: #00d397;
+}
+.wrong{
+    background: #FFEBEB;
+    border-color: #ff4a4a;
+} */
+
+.correct {
+  background: #dffff2 !important;
+  border-color: #00d397 !important;
+}
+
+.wrong {
+  background: #FFEBEB !important;
+  border-color: #ff4a4a !important;
+}
+
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 480px) {
+  .container {
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 8px;
+  }
+
+  ul li {
+    font-size: 10px;
+    padding: 15px;
+  }
+  .index {
+  margin: auto;
+  font-size: 8px;
+  }
+}
